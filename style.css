@@ -19,7 +19,7 @@ header, main, footer {
 header {
     color: #f9faf8;
     background-color: #1f2937;
-    height: 200px;
+    height: 400px;
 }
 
 #headerLogo {
@@ -38,18 +38,29 @@ header nav a {
 
 #hero {
     display: flex;
-    justify-content: space-between;
+    gap: 24px;
+    margin-top: 50px;
 }
 
 #heroDesc {
+    flex: auto;
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    flex: auto;
+    width: 40%;
+}
+
+#heroSubtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 10px;
 }
 
 #heroPlaceholder {
     flex: auto;
     background-color: grey;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
 }
