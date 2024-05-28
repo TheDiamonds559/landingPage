@@ -77,29 +77,48 @@ main {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    padding: 25px 250px;
+    padding: 25px 0;
 }
 
 .information {
     text-align: center;
+    padding: 0 250px
 }
 
 .container {
     margin-top: 24px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .imgPlaceholder {
     border-radius: 15px;
     width: auto;
-    height: 150px;
+    height: 175px;
     border: 2px solid #3882f6;
 }
 
 .subContainer {
-    width: 150px;
+    width: 175px;
     font-size: 18px;
+}
+
+blockquote {
+    padding: 100px 250px;
+    background-color: #e5e7eb;
+}
+
+blockquote p {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+blockquote footer p {
+    font-weight: bolder;
+    margin-left: auto;
+    width: fit-content;
 }
 
 
