@@ -12,13 +12,16 @@ button {
     padding: 5px 15px;
 }
 
-header, main, footer {
+header, main, #mainFooter {
     padding: 25px 200px;
 }
 
-header {
+header, #mainFooter {
     color: #f9faf8;
     background-color: #1f2937;
+}
+
+header {
     height: 400px;
 }
 
@@ -73,4 +76,9 @@ header nav a {
 main {
     display: flex;
     flex-direction: column;
+}
+
+#mainFooter {
+    text-align: center;
+
 }
