@@ -12,7 +12,7 @@ button {
     padding: 5px 15px;
 }
 
-header, main, #mainFooter {
+header, #mainFooter {
     padding: 25px 200px;
 }
 
@@ -76,9 +76,33 @@ header nav a {
 main {
     display: flex;
     flex-direction: column;
+    gap: 24px;
+    padding: 25px 250px;
 }
+
+.information {
+    text-align: center;
+}
+
+.container {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imgPlaceholder {
+    border-radius: 15px;
+    width: auto;
+    height: 150px;
+    border: 2px solid #3882f6;
+}
+
+.subContainer {
+    width: 150px;
+    font-size: 18px;
+}
+
 
 #mainFooter {
     text-align: center;
-
 }
